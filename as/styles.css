@@ -6,12 +6,9 @@
 }
 
 html {
-    text-align: center;
-    justify-content: center;
-    font-size: 100%;
+    font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
     -webkit-text-size-adjust: 100%;
-    vertical-align: middle;
 }
 
 body {
@@ -119,6 +116,10 @@ button.month-change {
     text-align: center;
 }
 
+.datepicker-calendar--body .day-unit {
+    color: #ccc;
+}
+
 .day-unit a {
     display: inline-block;
     width: 100%;
@@ -126,6 +127,14 @@ button.month-change {
     text-decoration: none;
 }
 
+.selected-day {
+    background-color: #82CAFA;
+    border-radius: 2.5rem;
+    color: #FEFCFF;
+    font-weight: bold;
+}
+
 .u-div-show {
     display: block!important;
 }
+
